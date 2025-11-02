@@ -35,7 +35,7 @@ Site portfólio profissional desenvolvido como atividade da faculdade, implement
 3. Teste a responsividade redimensionando a janela
 
 ## 📞 Contato
-Desenvolvido por [Seu Nome] - Atividade de Faculdade
+Desenvolvido por Thayna Fleming - Atividade de Faculdade
 
 ---
 *Projeto entregue conforme especificações técnicas exigidas.*
