@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: var(--espaco-4);
+}
+
+h1 {
+    font-size: var(--fonte-gigante);
+    color: var(--azul-escuro);
+}
+
+h2 {
+    font-size: var(--fonte-muito-grande);
+    color: var(--azul-escuro);
+}
+
+h3 {
+    font-size: var(--fonte-maior);
+}
+
+p {
+    margin-bottom: var(--espaco-4);
+    line-height: 1.6;
+}
+
+.texto-pequeno {
+    font-size: var(--fonte-pequena);
+}
+
+.texto-grande {
+    font-size: var(--fonte-grande);
+}

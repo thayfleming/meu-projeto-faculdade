@@ -1,0 +1,45 @@
+:root {
+    /* CORES PRINCIPAIS */
+    --azul-escuro: #1e40af;
+    --azul: #3b82f6;
+    --azul-claro: #60a5fa;
+    
+    --roxo-escuro: #7c3aed;
+    --roxo: #8b5cf6;
+    
+    --laranja: #f59e0b;
+    --laranja-escuro: #d97706;
+    
+    /* CORES NEUTRAS */
+    --branco: #ffffff;
+    --cinza-claro: #f3f4f6;
+    --cinza-medio: #9ca3af;
+    --cinza-escuro: #4b5563;
+    --preto: #000000;
+    
+    /* TAMANHOS DE FONTE */
+    --fonte-pequena: 0.875rem;   /* 14px */
+    --fonte-normal: 1rem;        /* 16px */
+    --fonte-media: 1.125rem;     /* 18px */
+    --fonte-grande: 1.25rem;     /* 20px */
+    --fonte-maior: 1.5rem;       /* 24px */
+    --fonte-muito-grande: 2rem;  /* 32px */
+    --fonte-gigante: 3rem;       /* 48px */
+    
+    /* ESPAÇAMENTOS */
+    --espaco-1: 0.25rem;   /* 4px */
+    --espaco-2: 0.5rem;    /* 8px */
+    --espaco-3: 0.75rem;   /* 12px */
+    --espaco-4: 1rem;      /* 16px */
+    --espaco-5: 1.25rem;   /* 20px */
+    --espaco-6: 1.5rem;    /* 24px */
+    --espaco-8: 2rem;      /* 32px */
+    --espaco-10: 2.5rem;   /* 40px */
+    --espaco-12: 3rem;     /* 48px */
+    --espaco-16: 4rem;     /* 64px */
+    
+    /* SOMBRAS */
+    --sombra-leve: 0 1px 3px rgba(0,0,0,0.1);
+    --sombra-media: 0 4px 6px rgba(0,0,0,0.1);
+    --sombra-forte: 0 10px 15px rgba(0,0,0,0.1);
+}

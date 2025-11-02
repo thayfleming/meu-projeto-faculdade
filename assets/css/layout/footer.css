@@ -1,0 +1,12 @@
+.footer {
+    background: var(--cinza-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: var(--espaco-8) 0;
+    margin-top: var(--espaco-16);
+}
+
+.footer p {
+    margin: 0;
+    opacity: 0.8;
+}

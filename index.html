@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto - Faculdade</title>
+    
+    <!-- Aqui linkamos todos os arquivos CSS -->
+    <link rel="stylesheet" href="assets/css/base/reset.css">
+    <link rel="stylesheet" href="assets/css/base/variables.css">
+    <link rel="stylesheet" href="assets/css/base/typography.css">
+    <link rel="stylesheet" href="assets/css/layout/grid.css">
+    <link rel="stylesheet" href="assets/css/layout/header.css">
+    <link rel="stylesheet" href="assets/css/layout/footer.css">
+    <link rel="stylesheet" href="assets/css/components/buttons.css">
+    <link rel="stylesheet" href="assets/css/components/navigation.css">
+    <link rel="stylesheet" href="assets/css/components/cards.css">
+    <link rel="stylesheet" href="assets/css/components/forms.css">
+    <link rel="stylesheet" href="assets/css/pages/home.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2>MeuPortfólio</h2>
+            </div>
+            
+            <!-- MENU DE NAVEGAÇÃO -->
+            <nav class="nav">
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-list">
+                    <li><a href="#home">Início</a></li>
+                    <li class="dropdown">
+                        <a href="#projetos">Projetos</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#web">Sites Web</a></li>
+                            <li><a href="#mobile">Apps Mobile</a></li>
+                            <li><a href="#design">Design</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main">
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>Bem-vindo ao Meu Portfólio</h1>
+                <p>Desenvolvedor Front-end & Designer UI/UX</p>
+                <button class="btn btn-primary">Ver Projetos</button>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE PROJETOS -->
+        <section class="projects" id="projetos">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="projects-grid">
+                    <!-- CARD 1 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <!-- Imagem gerada por CSS -->
+                        </div>
+                        <div class="card-content">
+                            <h3>Site E-commerce</h3>
+                            <p>Loja virtual completa com carrinho de compras</p>
+                            <div class="card-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <button class="btn btn-secondary">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <!-- Imagem gerada por CSS -->
+                        </div>
+                        <div class="card-content">
+                            <h3>App Mobile</h3>
+                            <p>Aplicativo de tarefas e produtividade</p>
+                            <div class="card-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                            </div>
+                            <button class="btn btn-secondary">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="card">
+                        <div class="card-image">
+                            <!-- Imagem gerada por CSS -->
+                        </div>
+                        <div class="card-content">
+                            <h3>Dashboard Admin</h3>
+                            <p>Painel administrativo com gráficos e relatórios</p>
+                            <div class="card-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">API</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                            <button class="btn btn-secondary">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMULÁRIO DE CONTATO -->
+        <section class="contact" id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

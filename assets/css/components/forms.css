@@ -1,0 +1,40 @@
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: var(--espaco-6);
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: var(--espaco-2);
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: var(--espaco-3) var(--espaco-4);
+    border: 2px solid var(--cinza-claro);
+    border-radius: var(--espaco-2);
+    font-size: var(--fonte-normal);
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--azul);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form-group input:invalid:not(:focus) {
+    border-color: #ef4444;
+}
+
+.form-group input:valid:not(:focus) {
+    border-color: #10b981;
+}

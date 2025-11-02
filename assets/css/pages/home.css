@@ -1,0 +1,40 @@
+/* Corrige o espaço do header fixo */
+.main {
+    margin-top: 80px;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, var(--azul) 0%, var(--roxo) 100%);
+    color: var(--branco);
+    padding: var(--espaco-16) 0;
+    text-align: center;
+}
+
+.hero h1 {
+    color: var(--branco);
+    margin-bottom: var(--espaco-4);
+}
+
+.hero p {
+    font-size: var(--fonte-grande);
+    margin-bottom: var(--espaco-8);
+    opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+    padding: var(--espaco-16) 0;
+}
+
+section:nth-child(even) {
+    background: var(--cinza-claro);
+}
+
+/* FOOTER */
+.footer {
+    background: var(--cinza-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: var(--espaco-8) 0;
+}
